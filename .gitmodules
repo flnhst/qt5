@@ -1,6 +1,6 @@
 [submodule "qtbase"]
 	path = qtbase
-	url = ssh://git@github.com:flnhst/qtbase.git
+	url = ssh://git@github.com/flnhst/qtbase.git
 	branch = 6.11.1
 	status = essential
 [submodule "qtsvg"]
