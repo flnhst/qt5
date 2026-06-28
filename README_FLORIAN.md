@@ -16,8 +16,17 @@ This repo only difference is this README and the reference to the correct qtbase
 
 See the Qt website for general information in building Qt.
 
+### Windows
+
 To build release (in the D:\qt-dev\qt-build-for-install directory):
 
 ```
 ..\qt\configure -prefix D:\qt-dev\qt-install-release -release -skip qtconnectivity,qtspeech,qtpdf,qtwebengine,qtwebview
 ```
+
+### Linux
+
+```
+../qt/configure -prefix /home/florian/qt/install-debug -debug -skip qtconnectivity,qtspeech,qtpdf,qtwebengine,qtwebview
+```
+
