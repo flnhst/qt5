@@ -1,7 +1,7 @@
 [submodule "qtbase"]
 	path = qtbase
 	url = ssh://git@github.com/flnhst/qtbase.git
-	branch = 6.11.1
+	branch = v6.11.1-florian
 	status = essential
 [submodule "qtsvg"]
 	depends = qtbase
